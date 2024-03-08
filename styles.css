@@ -1,0 +1,96 @@
+.navigation{
+    float: right;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: inherit;
+}
+
+.navigation li a{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 0px 40px 0px 60px;
+}
+
+.inner-header {
+    background-color: #101010;
+    height: 100%;
+}
+
+.logo-container {
+    width: 25%;
+    float: left;
+    height: 100%;
+    display: flex;
+}
+
+#logo {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+}
+
+.content {
+    margin: 0px 200px 0px 200px;
+}
+
+.hobby-name {
+    margin-bottom: 0px;
+}
+
+.hobby-image {
+    float: left;
+    height: 400px;
+    width: 400px;
+}
+
+.hobby-text {
+    font-size: 24px;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.separator {
+    margin-bottom: 0px;
+}
+
+.contacts {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contacts li {
+    margin: 10px;
+}
+
+.contacts li a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.contacts li a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
